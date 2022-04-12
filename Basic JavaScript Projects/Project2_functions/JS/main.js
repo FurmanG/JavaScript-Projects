@@ -4,8 +4,8 @@ function winnerName(){
   firstName = "Simba";
   lastName = "Happy";
   winigAmount = 9000000
-  tax = 1000000
-  winigAmount -= tax
+  Bonus = 1000000
+  winigAmount += Bonus
   document.getElementById("winnerName").innerHTML = firstName + " " + lastName + " wins = $" + winigAmount;
 }
 

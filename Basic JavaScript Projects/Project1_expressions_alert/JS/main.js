@@ -26,3 +26,8 @@ document.write("D x E = ", F);
     I could not manage to use it in the external script file: main.js
     
   */
+
+
+function displayDate(){
+  document.getElementById("p3").innerHTML = Date();
+}
